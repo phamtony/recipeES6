@@ -29,3 +29,6 @@ Summary of Project
 	** ajax loader (it's put in the base.js, so it can be reused throughout the site. also includes an arugment, parent)
 -Building pagination
 	-Start, end criteria. Button rendering, slice up results in conjunction to pages/results per page
+
+-Building Model (Recipes)	
+-Creating a config.js file (to have global keys that needs to be used sitewide)
