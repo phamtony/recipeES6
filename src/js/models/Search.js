@@ -12,7 +12,7 @@ export default class Search {
 			this.result = res.data.recipes;
 			
 		} catch (error) {
-			alert(error);
+			console.log(error);
 		}
 	}
 

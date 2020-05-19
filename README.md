@@ -18,6 +18,7 @@ Summary of Project
 
 //Search.js (search model); index.js(controller); searchView.js(view)
 -First API calls (getting data)
+-Set-up state object in the controler
 
 -Building Model (search model for getting recipes) (Search.js)
 -Testing Model to controller, seeing if it's displaying data
@@ -32,3 +33,9 @@ Summary of Project
 
 -Building Model (Recipes)	
 -Creating a config.js file (to have global keys that needs to be used sitewide)
+
+-Build Controller (Recipe)
+	-implementing hashchange eventlistener
+	-implementing try catch on controller in case it doesn't work
+
+-Re-visiting building model - Recipes
