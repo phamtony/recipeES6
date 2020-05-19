@@ -39,3 +39,5 @@ Summary of Project
 	-implementing try catch on controller in case it doesn't work
 
 -Re-visiting building model - Recipes
+
+-Build View (Recipes)
