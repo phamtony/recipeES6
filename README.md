@@ -41,3 +41,5 @@ Summary of Project
 -Re-visiting building model - Recipes
 
 -Build View (Recipes)
+	-format numbers for consistency
+-Recipe servings update
