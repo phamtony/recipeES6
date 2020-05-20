@@ -2,6 +2,10 @@
 ES6 practic project
 Recipe App
 
+git clone
+npm install
+npm run start
+
 Summary of Project
 
 -Set up project
