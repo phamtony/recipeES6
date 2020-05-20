@@ -47,3 +47,8 @@ Summary of Project
 -Build View (Recipes)
 	-format numbers for consistency
 -Recipe servings update
+
+Build the Shopping List
+-Build shopping list model
+	-npm install uniquid, package to create unique ids for the shopping list
+-Created our own API shopping list (add, delete, update)
