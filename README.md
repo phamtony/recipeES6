@@ -55,3 +55,7 @@ Build the Shopping List
 
 -Build shopping list view
 -Build List controller
+
+-Build Like Models
+-Build Like Controller
+-Build Like Views
