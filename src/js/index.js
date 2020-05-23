@@ -15,7 +15,6 @@ import { elements, renderLoader, clearLoader } from './view/base';
 - Liked object
 **/
 const state = {};
-// window.state = state;
 
 // Search Controller
 const controlSearch = async () => {
@@ -197,4 +196,3 @@ elements.recipe.addEventListener('click', e => {
 		controlLike();
 	}
 });
-

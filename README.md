@@ -62,3 +62,7 @@ Build the Shopping List
 
 Integrating localStorage for the app
 -like feature
+
+Final considerations
+-Clean up
+-webpack --mode production
