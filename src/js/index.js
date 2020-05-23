@@ -15,7 +15,7 @@ import { elements, renderLoader, clearLoader } from './view/base';
 - Liked object
 **/
 const state = {};
-window.state = state;
+// window.state = state;
 
 // Search Controller
 const controlSearch = async () => {
@@ -110,11 +110,6 @@ const controlList = () => {
 
 
 // Like Controller
-
-//Temp testing DELETE LATER
-state.likes = new Likes();
-likeView.toggleLikeMenu(state.likes.getNumLikes());
-
 const controlLike = () => {
 	if (!state.likes) state.likes = new Likes();
 	const currentID = state.recipe.id;
@@ -166,6 +161,20 @@ elements.shopping.addEventListener('click', e => {
 		const val = parseFloat(e.target.value, 10);
 		state.list.updateItem(id, val);
 	}
+});
+
+// restore liked recipes on page load
+window.addEventListener('load', () => {
+	state.likes = new Likes();
+
+	//restore likes
+	state.likes.readStorage();
+
+	// toggle like menu button
+	likeView.toggleLikeMenu(state.likes.getNumLikes());
+
+	//render the existing likes
+	state.likes.likes.forEach(like => likeView.renderLike(like));
 });
 
 //Handling recipe button clicks

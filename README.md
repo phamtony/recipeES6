@@ -59,3 +59,6 @@ Build the Shopping List
 -Build Like Models
 -Build Like Controller
 -Build Like Views
+
+Integrating localStorage for the app
+-like feature
