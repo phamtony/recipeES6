@@ -1,5 +1,6 @@
-# recipeES6
-ES6 practic project
+# Recipe App
+ES6 project (No framework)
+
 Recipe App
 
 git clone
